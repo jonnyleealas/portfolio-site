@@ -1,8 +1,11 @@
-import React from 'react'
+type FooterProps = {
+  className?: string 
+    
+}
 
-const Footer = () => {
+const Footer: React.FC<FooterProps> = ({className}) => {
   return (
-    <footer>
+    <footer className={className}>
         <h1>Footer</h1>
     </footer>
   )

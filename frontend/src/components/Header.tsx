@@ -1,6 +1,10 @@
-const Navbar: React.FC = () => {
+type NavbarProps = {
+    className?: string
+};
+
+const Navbar: React.FC<NavbarProps> = ({className}) => {
     return (
-        <nav className="navbar">
+        <nav className={className}>
             <h1>Navbar</h1>
         </nav>
     )
