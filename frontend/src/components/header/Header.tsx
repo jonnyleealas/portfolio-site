@@ -1,3 +1,5 @@
+import Nav from './nav'
+
 type NavbarProps = {
     className?: string
 };
@@ -5,7 +7,7 @@ type NavbarProps = {
 const Navbar: React.FC<NavbarProps> = ({className}) => {
     return (
         <nav className={className}>
-            <h1>Navbar</h1>
+            <Nav />
         </nav>
     )
 }
