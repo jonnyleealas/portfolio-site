@@ -1,0 +1,7 @@
+@media (min-width: 1400px) {
+    .my-nav-container .nav {
+      justify-content: flex-end; /* Aligns to the right */
+      /* Removed max-width */
+    }
+  }
+  
