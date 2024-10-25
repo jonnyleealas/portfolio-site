@@ -7,14 +7,15 @@
 }
 
 .header {
-    background-color: #2f3fcf;
-    color: white;
+    background-color: #F8F9FA;
+    color: rgb(119, 119, 122);
     text-align: center;
     padding: 10px;
 }
 
 /* Styles for the main content */
 .main {
+    background-color: #FFFFFF;
     flex: 1;
     /* This ensures the main content takes up all the available space */
     padding: 20px;
@@ -23,7 +24,7 @@
 
 /* Footer styles */
 .footer {
-    background-color: #14a53f;
+    background-color: #F8F9FA;
     color: rgb(235, 4, 4);
     text-align: center;
     padding: 10px;
