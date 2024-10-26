@@ -1,0 +1,22 @@
+.main {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0px;
+}
+
+.box-1 {
+    border-style: solid;
+    border-color: rgb(25, 10, 228);
+
+}
+.box-2 {
+    border-style: solid;
+    border-color: rgb(150, 69, 15);
+
+}
+.box-3 {
+    border-style: solid;
+    border-color: rgb(20, 241, 49);
+    margin: 0;
+
+}

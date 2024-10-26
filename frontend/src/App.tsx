@@ -10,7 +10,7 @@ const App: React.FC = () => {
     <Router>
       <div className='app'>
         <Header className="header" />
-        <Main className="main" />
+        <Main />
         <Footer className="footer" />
       </div>
     </Router>

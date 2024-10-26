@@ -4,6 +4,7 @@
     flex-direction: column;
     min-height: 100vh;
     /* Ensures the body takes full viewport height */
+    
 }
 
 .header {
@@ -11,16 +12,16 @@
     color: rgb(119, 119, 122);
     text-align: center;
     padding: 10px;
+    
 }
 
 /* Styles for the main content */
-.main {
+/* .main {
     background-color: #FFFFFF;
-    flex: 1;
-    /* This ensures the main content takes up all the available space */
-    padding: 20px;
-    /* Optional padding for the main content */
-}
+    
+    
+    
+} */
 
 /* Footer styles */
 .footer {
@@ -32,4 +33,5 @@
     position: relative;
     bottom: 0;
     width: 100%;
+    
 }
