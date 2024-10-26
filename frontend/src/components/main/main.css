@@ -15,6 +15,8 @@
 
 }
 .box-3 {
+    display: flex;
+    justify-content: center;
     border-style: solid;
     border-color: rgb(20, 241, 49);
     margin: 0;
