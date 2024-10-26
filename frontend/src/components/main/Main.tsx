@@ -32,7 +32,6 @@ const Main: React.FC = () => {
             <div className='box-3'>
                 <Contact />
             </div>
-
         </main>
     )
 }
