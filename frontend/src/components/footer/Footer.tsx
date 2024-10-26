@@ -1,16 +1,12 @@
-type CustomFooterProps = {
-  className?: string;
-};
+import './footer.css'
 
-const Footer: React.FC<CustomFooterProps> = ({ className }) => {
+const Footer: React.FC = () => {
   return (
-    <footer className={className}>
-      <div className="container py-3">
+    <footer className='footer'>
+    
         <p>&copy; 2024 MyCompany. All rights reserved.</p>
-        <p>
-          <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a>
-        </p>
-      </div>
+       
+      
     </footer>
   );
 };

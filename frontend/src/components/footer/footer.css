@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    color: rgb(235, 4, 4);
+   
+    padding: 10px;
+    /* Sticky footer */
+   
+    bottom: 0;
+    width: 100%;
+    
+}

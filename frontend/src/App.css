@@ -7,13 +7,6 @@
     
 }
 
-.header {
-    background-color: #F8F9FA;
-    color: rgb(119, 119, 122);
-    text-align: center;
-    padding: 10px;
-    
-}
 
 /* Styles for the main content */
 /* .main {
@@ -24,14 +17,3 @@
 } */
 
 /* Footer styles */
-.footer {
-    background-color: #F8F9FA;
-    color: rgb(235, 4, 4);
-    text-align: center;
-    padding: 10px;
-    /* Sticky footer */
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    
-}
