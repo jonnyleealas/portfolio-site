@@ -12,6 +12,9 @@
 
 }
 .box-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     border-style: solid;
     border-color: rgb(79, 14, 231);
 
