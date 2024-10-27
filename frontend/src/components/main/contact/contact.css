@@ -1,16 +1,14 @@
 .contact-card {
-    /* background-color: #F8F9FA; */
+   /* background-color: #F8F9FA;  Uncomment if you want a background color */
     color: rgb(87, 92, 87);
-
-
-
-    width: 500px;
-    height: 400px;
-
+    width: 100%; /* Change to 100% to fill the container width */
+    max-width: 500px; /* Set a maximum width */
+    height: auto; /* Change to auto to allow height to adjust based on content */
     padding: 20px;
-
-
+    box-sizing: border-box; /* Ensure padding is included in width and height */
+    margin: 0; /* Optional: reset margin to avoid overflow */
 }
+
 
 .light-grey-button {
     background-color: #F8F9FA !important; /* Use !important if necessary */
@@ -18,3 +16,7 @@
     color: black !important; /* Optional: change text color for better contrast */
   }
   
+
+  .contact-title {
+    text-align: center;
+  }
