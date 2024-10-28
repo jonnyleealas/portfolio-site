@@ -23,8 +23,7 @@ const Main: React.FC = () => {
                 <Project />
                 <Project />
                 <Project />
-                <Project />
-                <Project />
+                
             </div>
             <div className='box-3'>
                 <Contact />
