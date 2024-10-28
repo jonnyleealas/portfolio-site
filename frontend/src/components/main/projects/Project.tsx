@@ -1,5 +1,5 @@
 import { Card, Row, Col } from "react-bootstrap";
-import './Project.css';
+import './project.css';
 
 const Project = () => (
   <Row className="g-4">
