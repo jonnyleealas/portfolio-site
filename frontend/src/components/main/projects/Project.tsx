@@ -4,7 +4,7 @@ import './project.css';
 const Project = () => (
   <Row className="g-4">
     <Col xs={12} sm={6} md={4} lg={3}>
-      <Card className="timeline-card shadow-sm mb-4" style={{ width: '1000px', height: '371.66px' }}>
+      <Card className="timeline-card shadow-sm mb-4" style={{ width: '1000px', height: '371.66px'}}>
         <Row className="g-0">
           <Col md={4}>
             <Card.Img
