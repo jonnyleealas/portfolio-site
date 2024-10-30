@@ -30,6 +30,9 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
                     <Nav.Item as="li">
                         <Nav.Link eventKey="link-4">Contact</Nav.Link>
                     </Nav.Item>
+                    <Nav.Item as="li">
+                        <Nav.Link eventKey="link-5">Login</Nav.Link>
+                    </Nav.Item>
                 </Nav>
             </Container>
         </nav>
