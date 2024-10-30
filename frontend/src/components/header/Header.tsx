@@ -25,10 +25,10 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
                         <Nav.Link eventKey="link-2">Blog</Nav.Link>
                     </Nav.Item>
                     <Nav.Item as="li">
-                        <Nav.Link eventKey="link-2">Resume</Nav.Link>
+                        <Nav.Link href="https://docs.google.com/document/d/1A_K32zlG1gLXKvNrTLlGVFU-1F32oe6YKOBgsCx6tqc/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</Nav.Link>
                     </Nav.Item>
                     <Nav.Item as="li">
-                        <Nav.Link eventKey="link-2">Contact</Nav.Link>
+                        <Nav.Link eventKey="link-4">Contact</Nav.Link>
                     </Nav.Item>
                 </Nav>
             </Container>
