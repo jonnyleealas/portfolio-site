@@ -11,8 +11,8 @@ const App: React.FC = () => {
     <Router>
       <div className='app'>
         <Header />
-        {/* <Main /> */}
-        <Blog />
+        <Main />
+        {/* <Blog /> */}
         <Footer />
       </div>
     </Router>
