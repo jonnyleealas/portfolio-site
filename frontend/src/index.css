@@ -1,3 +1,14 @@
+/* Keyframes for fade animations */
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 /* Basic CSS reset */
 * {
   margin: 0;
@@ -5,14 +16,36 @@
   box-sizing: border-box;
 }
 
-/* Setting a consistent base font size and family */
 html, body {
   height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  /* background-color: #f5f5f5; */
   color: #333;
 }
 
+/* Fade-in for initial load */
+body {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
 
+/* Small screens */
+@media (max-width: 599px) {
+  body {
+    animation: fadeOut 0.5s ease-in-out forwards, fadeIn 0.5s ease-in-out 0.5s forwards;
+  }
+}
+
+/* Medium screens */
+@media (min-width: 600px) and (max-width: 1023px) {
+  body {
+    animation: fadeOut 0.5s ease-in-out forwards, fadeIn 0.5s ease-in-out 0.5s forwards;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1024px) {
+  body {
+    animation: fadeOut 0.5s ease-in-out forwards, fadeIn 0.5s ease-in-out 0.5s forwards;
+  }
+}
