@@ -3,8 +3,8 @@ import image from '../../../assets/image.jpg'
 const Title: React.FC = () => {
     return (
         <div className="title">
-            <h1>Jonathon Lee</h1>
-            <h2>Software Developer</h2>
+            <h1>test</h1>
+            <h2>test</h2>
             <img src={image} className='image' />
         </div>
     )

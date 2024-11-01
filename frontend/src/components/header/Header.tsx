@@ -13,7 +13,7 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
             <Container fluid className='my-nav-container'>
                 <Nav defaultActiveKey="/home" as="ul" className="d-flex justify-content-between w-100">
                     <Nav.Item as="li" className="me-auto">
-                        <h1>Jonny</h1>
+                        <h1>Test</h1>
                     </Nav.Item>
                     <Nav.Item as="li">
                         <Nav.Link href="/home">About</Nav.Link>
