@@ -12,7 +12,7 @@ const Project = () => (
               src="https://cdn.prod.website-files.com/66d86945c818da8aabd7df53/66fe6aa5c00badf965d916dc_Container.png"
               alt="Project"
               className="timeline-image"
-              sizes="(max-width: 479px) 100vw, (max-width: 767px) 61vw, (max-width: 991px) 57vw, (max-width: 1279px) 54vw, 560.4765625px"
+              sizes="(max-width: 479px) 100vw, (max-width: 767px) 61vw, (max-width: 1000px) 57vw, (max-width: 1279px) 54vw, 560.4765625px"
               srcSet="
                 https://cdn.prod.website-files.com/66d86945c818da8aabd7df53/66fe6aa5c00badf965d916dc_Container-p-500.png 500w,
                 https://cdn.prod.website-files.com/66d86945c818da8aabd7df53/66fe6aa5c00badf965d916dc_Container-p-800.png 800w,
