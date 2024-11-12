@@ -1,23 +1,16 @@
-.timeline-card {
-    transition: transform 0.2s, box-shadow 0.2s; /* Add transition effect */
-  }
+.project-card {
+  display: flex;
   
-  .timeline-card:hover {
-    transform: scale(1.05); /* Scale up the card */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
-  }
-  
-  .timeline-image {
-    width: 100%; /* Ensures the image takes full width of its parent */
-    height: auto; /* Maintains the aspect ratio */
-  }
-  
-  
-  .timeline-content {
-    padding: 20px; /* Adds padding around content */
-  }
-  
-  .button-wrapper {
-    margin-top: 10px; /* Adds some space above the button */
-  }
-  
+
+}
+
+.project-image {
+  width: 500px;
+  height: 250px;
+  border-style: solid;
+}
+
+.project-info {
+  width: 500px;
+  border-style: solid;
+}

@@ -12,7 +12,7 @@ const Main: React.FC = () => {
             <div className='box-2'>
                 <Project />
                 <Project />
-                <Project />   
+                <Project />
             </div>
             <div className='box-3'>
                 <Contact />
