@@ -1,16 +1,25 @@
 .project-card {
+  background-color: red;
+  width: 1000px;
+  height: 400px;
   display: flex;
-  
+  border-style: solid;
+  border-width: 15px;
+  border-radius: 15px 15px 15px 15px;
+
 
 }
 
 .project-image {
-  width: 500px;
-  height: 250px;
+  width: 600px;
+  border-radius: 5px 5px 5px 5px;
   border-style: solid;
+  border-color: chartreuse;
 }
 
 .project-info {
-  width: 500px;
+ width: 400px;
+ border-radius: 5px 5px 5px 5px;
   border-style: solid;
+  border-color: aqua;
 }
